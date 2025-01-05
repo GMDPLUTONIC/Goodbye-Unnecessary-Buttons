@@ -1,14 +1,14 @@
 {
-	"geode": "2.0.0",
+	"geode": "4.1.2",
 	"version": "v1.1.0",
 	"id": "capeling.goodbye_unnecessary_buttons",
 	"name": "Goodbye Unnecessary Buttons",
 	"gd": {
-		"win": "2.204",
-		"android": "2.205"
+		"win": "2.207",
+		"android": "2.207"
 	},
 	"developer": "Capeling",
-	"description": "Removes The Versus, Map and Event buttons from CreatorLayer!",
+	"description": "Removes The Map and Event buttons from CreatorLayer!",
 	"dependencies": [
         {
             "id": "geode.node-ids",
