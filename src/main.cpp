@@ -8,8 +8,9 @@ class $modify(CreatorLayer) {
 		if(!CreatorLayer::init())
 			return false;
 		CCMenu* m_creatorButtonsMenu = as<CCMenu*>(this->getChildByID("creator-buttons-menu"));
+		
 		as<CCNode*>(m_creatorButtonsMenu->getChildByID("map-button"))->removeFromParent();
-		as<CCNode*>(m_creatorButtonsMenu->getChildByID("event-button"))->removeFromParent();
+		as<CCNode*>(m_creatorButtonsMenu->getChildByID("versus-button"))->removeFromParent();
 
 		for(int i = 0; i < m_creatorButtonsMenu->getChildrenCount(); i++) {
 			log::info("{}", i);
