@@ -4,8 +4,8 @@
 	"id": "capeling.goodbye_unnecessary_buttons",
 	"name": "Goodbye Unnecessary Buttons",
 	"gd": {
-		"win": "2.207",
-		"android": "2.207"
+		"win": "2.2074",
+		"android": "2.2074"
 	},
 	"developer": "Capeling",
 	"description": "Removes The Map and Event buttons from CreatorLayer!",
